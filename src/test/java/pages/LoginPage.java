@@ -20,6 +20,8 @@ public class LoginPage {
 	private final By forgotPasswordLink = By.cssSelector(".orangehrm-login-forgot-header");
 	private final By resetPasswordTitle = By.cssSelector(".orangehrm-forgot-password-title");
 
+	// Testing GitHub pull operation
+	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(Long.parseLong(DriverFactory.get("timeout"))));

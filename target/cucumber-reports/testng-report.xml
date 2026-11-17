@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="8" skipped="0" total="8">
+    <suite duration-ms="116018" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="116018" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="OrangeHRM Login functionality">
+                <test-method duration-ms="13979" finished-at="2026-11-17T05:09:02.619090900Z" name="Successful login with valid credentials" started-at="2026-11-17T05:08:48.620129400Z" status="PASS"/>
+                <test-method duration-ms="9436" finished-at="2026-11-17T05:09:12.077352200Z" name="Login fails with invalid password" started-at="2026-11-17T05:09:02.637921300Z" status="PASS"/>
+                <test-method duration-ms="11414" finished-at="2026-11-17T05:09:23.517817400Z" name="Login fails with invalid username" started-at="2026-11-17T05:09:12.083859300Z" status="PASS"/>
+                <test-method duration-ms="10173" finished-at="2026-11-17T05:09:33.700554100Z" name="Login fails with both fields empty" started-at="2026-11-17T05:09:23.523512100Z" status="PASS"/>
+                <test-method duration-ms="17471" finished-at="2026-11-17T05:09:51.180082Z" name="Login with multiple invalid credential sets" started-at="2026-11-17T05:09:33.706940700Z" status="PASS"/>
+                <test-method duration-ms="14583" finished-at="2026-11-17T05:10:05.768955300Z" name="Login with multiple invalid credential sets_2" started-at="2026-11-17T05:09:51.185141700Z" status="PASS"/>
+                <test-method duration-ms="18067" finished-at="2026-11-17T05:10:23.845893500Z" name="Login with multiple invalid credential sets_3" started-at="2026-11-17T05:10:05.775500200Z" status="PASS"/>
+                <test-method duration-ms="20486" finished-at="2026-11-17T05:10:44.350976900Z" name="Forgot password link is available" started-at="2026-11-17T05:10:23.852210Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>
